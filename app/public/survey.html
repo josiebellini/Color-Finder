@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Finder</title>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>    
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+						<h1>Survey Questions</h1>
+						<hr>
+
+						<h3>About You</h3>
+				</div>
+					<div class="row">
+						<div class="input-field col-6">
+							<h5>Name</h5>
+							<input type="text" placeholder="Your Name Here" id="userName">
+						</div>
+
+						<div class="input-field col-6">
+							<h5>Link to Photo</h5>
+							<input type="text" placeholder="Photo Link Here" id="userPhoto">
+						</div>
+					</div>
+					<br>
+					
+					<div class="row">
+						<div class="col-back input-field col-12">
+							<h3>Question 1</h3>
+							<h5>You hope to live on another planet one day.</h5>
+							<select id="question1">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 2</h3>
+							<h5>You spend most of your day in nature, studying or enjoying your surroundings.</h5>
+							<select id="question2">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 3</h3>
+							<h5>You find it easy to identify the silver lining.</h5>
+							<select id="question3">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 4</h3>
+							<h5>You are very hard to upset.</h5>
+							<select id="question4">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 5</h3>
+							<h5>Your main goal in life is to be richhhhhhh.</h5>
+							<select id="question5">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 6</h3>
+							<h5>You find that speaking with others for extended periods of time is boring.</h5>
+							<select id="question6">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 7</h3>
+							<h5>You would rather eat peas for the rest of your life than go skydiving.</h5>
+							<select id="question7">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 8</h3>
+							<h5>You are an active reader.</h5>
+							<select id="question8">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 9</h3>
+							<h5>You are open to new opinions and ideas.</h5>
+							<select id="question9">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="col-back input-field col-12">
+							<h3>Question 10</h3>
+							<h5>You think that humans are good deep down.</h5>
+							<select id="question10">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+					</div>
+						<br>
+						<div>
+							<button class="btn btn-warning btn-lg" type="submit" id="submitButton">Submit</button>
+						</div>
+			</div>
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+ body {
+ 	width: 65%;
+	margin: 0px auto; 
+	text-align:center;
+ }
+
+ .col-back {
+ 	background: aliceblue;
+ 	padding: 15px;
+ 	margin-bottom:25px;
+ }
+
